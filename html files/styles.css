@@ -41,10 +41,11 @@ font-size: 25px;
 }
 
 .container-fluid {
-  background-color: #034886;
+  background-image: url(navbarimage.jpg);
+  background-size:1500px;
 }
 
 .nav-link {
-  color:white;
+  color:black;
 }
 
