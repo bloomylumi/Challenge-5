@@ -39,3 +39,12 @@ font-size: 25px;
   bottom:482px;
   left:360px;
 }
+
+.container-fluid {
+  background-color: #034886;
+}
+
+.nav-link {
+  color:white;
+}
+
