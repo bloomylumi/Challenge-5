@@ -36,20 +36,21 @@
     </div>
   </nav>
 
-    <h1>Contact opnemen</h1>
+    <h1 style="text-align: center;">Contact opnemen</h1>
     <h2>Onze contactgegevens</h2>
-    <p>Naam: CRTL-All Logistiek</p>
-    <p>Adres: Elegantiersgracht 401</p>
-    <p>Plaats: Noord Holland, Amsterdam</p>
-    <p>Postcode: 1015RZ</p>
-    <img src="CTRL-All locatie.png" width="500" style="transform: translate(500px, -100px);" style="display: block;">
+    <p class="paragraph"> Naam: CRTL-All Logistiek</p>
+    <p class="paragraph"> Adres: Elegantiersgracht 401</p>
+    <p class="paragraph">Plaats: Noord Holland, Amsterdam</p>
+    <p class="paragraph">Postcode: 1015RZ</p>
+    <img src="CTRL-All locatie.png" class="right-image"> 
 <form>
-    <div class="form-group">
+  <h2>Stuur ons een bericht</h2>
+    <div class="form-group" style="display: grid;">
           <label for="name">Naam en Achternaam</label>
-          <input id="name" type="text" placeholder="Uw naam en achternaam">
+          <input id="name" type="text" placeholder="Uw naam en achternaam" maxlength="30" size="30">
           <br>
           <label for="email">E-mailadres</label>
-          <input id="email" type="text" placeholder="Uw E-mailadres">
+          <input type="text" id="email" placeholder="Uw E-mailadres">
           <br>
           <label for="Telefoonnummer">Telefoonnummer</label>
           <input id="Telefoonnummer" type="text" placeholder="Uw Telefoonnummer">
@@ -57,13 +58,15 @@
           <label for="Onderwerp">Onderwerp</label>
           <input id="Onderwerp" type="text" placeholder="Reden van contact">
           <br>
-          <label for="Berichten">Toelichting/Bericht</label><br>
-          <textarea id="Berichten" name="Bericht" rows="4" cols="50">
-            Type hier uw toelichting/bericht...
-          </textarea>
+          <label for="Berichten">Toelichting/Bericht</label>
+          <input rows="5" cols="50" placeholder="Typ hier uw toelichting/bericht">
+
+          </input>
     </div>
+
+<br>
     <button type="button" onclick="alert"('Bericht verzonden.')>Verzenden</button>
 </form>
-    
+
 </body>
 </html>
