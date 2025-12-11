@@ -40,6 +40,7 @@ font-size: 25px;
   left:360px;
 }
 
+/* Decoration for the navbar */
 .container-fluid {
   background-image: url(navbarimage.jpg);
   background-size:1500px;
